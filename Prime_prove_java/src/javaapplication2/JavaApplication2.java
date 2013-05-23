@@ -15,6 +15,13 @@ public class JavaApplication2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-            int a=0;
+            short a=10000;            
+            char lett='p';
+            System.out.println(lett);
+            System.out.println(a);
+            System.out.println("suca");
+       // Gestione Array
+            
+            
     }
 }
