@@ -40,8 +40,7 @@ public class JavaApplication2 {
             //esempio di utilizzo di un array-vettore
             int i=0;
             int somma=0;
-            int media=0;
-            
+            int media;            
             while(i<provavettore.length){
                 somma=somma+provavettore[i];
                 i++;
