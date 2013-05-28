@@ -60,5 +60,45 @@ public class JavaApplication2 {
              //esempio di lettura valore array
              System.out.println(array[5]);
              
+             
+            // strutture di controllo
+             int x=0;
+              if(x<=10)
+                 System.out.println("limite");
+            // utilizzo con else
+              int y=1;
+              if(y==1)
+                  System.out.println("il valore di y è 1 ");
+              else
+                  System.out.println("Il valore di y è diverso da 1");
+              //èpossibile concatenare operazioni con else if
+              int g=3;
+              if(g==2)
+                  System.out.println("il valore di G è 2 ");
+              else if(g>=2)
+                  System.out.println("Il valore di G è maggiore di 2");
+              else
+                  System.out.println("Il valore di G è minore di 2");
+              
+              //Costrutto Switch - Case
+              int f=2;
+              switch(f){
+                  case 1:
+                      System.out.println("f è uguale a 1");
+                      break;
+                  case 2:
+                      System.out.println("f è uguale a 2");
+                      break;
+                  default:
+                      System.out.print("f è diverso da 1 e 2");
+                      break;
+              }
+              //espressione condizionale
+              
+             int s=2;
+             int k=0;
+             k=s<2?-s:s;
+             System.out.println(k);
+             
     }
 }
