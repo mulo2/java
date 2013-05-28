@@ -71,7 +71,7 @@ public class JavaApplication2 {
                   System.out.println("il valore di y è 1 ");
               else
                   System.out.println("Il valore di y è diverso da 1");
-              //èpossibile concatenare operazioni con else if
+              //è possibile concatenare operazioni con else if
               int g=3;
               if(g==2)
                   System.out.println("il valore di G è 2 ");
