@@ -96,7 +96,7 @@ public class JavaApplication2 {
               //espressione condizionale
               
              int s=1;
-             int k=0;
+             int k;
              k=s<2?-s:s;
              System.out.println(k);
              
