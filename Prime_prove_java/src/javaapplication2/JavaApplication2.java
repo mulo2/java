@@ -36,8 +36,8 @@ public class JavaApplication2 {
             //il .length serve per conoscere la lunghezza del vettore
             System.out.print("la dimensione del vettore è ");
             System.out.println(secondovettore.length);
-            
-            //esempio di utilizzo di un array-vettore
+         
+             //esempio di utilizzo di un array-vettore
             int i=0;
             int somma=0;
             int media;            
@@ -46,8 +46,19 @@ public class JavaApplication2 {
                 i++;
             }
              media=somma/provavettore.length;
+             System.out.print("la media è ");
              System.out.println(media);
              
+            //Esempio di popolazione Array - vettore
+             int b=0;
+             int[] array=new int[10];
+             while (b<array.length){
+             array[b]= (int)(1000*Math.random());
+             System.out.println(array[b]);
+             b++;             
+             }
+             //esempio di lettura valore array
+             System.out.println(array[5]);
              
     }
 }
